@@ -1,0 +1,16 @@
+{
+  "extends": "react-app",
+  "rules": {
+    "semi": ["warn", "never"],
+    "import/no-unresolved": "error",
+    "comma-dangle": 0,
+    "jsx-a11y/anchor-is-valid": 0
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "paths": ["src"]
+      }
+    }
+  }
+}
