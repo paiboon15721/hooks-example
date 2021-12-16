@@ -1,5 +1,13 @@
+import { DemoUseEffect } from './components/DemoUseEffect'
+import { DemoUseState } from './components/DemoUseState'
+
 const App = () => {
-  return <div className="App">Hello world</div>
+  return (
+    <>
+      <DemoUseState />
+      <DemoUseEffect />
+    </>
+  )
 }
 
 export default App
